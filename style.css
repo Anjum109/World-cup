@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
 }
 
-/* ---------------------------------header items------------------------------------- */
+/* ---------------------------------header items start------------------------------------- */
 
 .banner {
     display: flex;
@@ -72,7 +72,9 @@ body {
     transition-duration: 0.4s;
 }
 
-/* 2nd part  */
+/* ----------------------------------header items end ------------------------------- */
+
+/*----------------------------------- main part start--------------------------------------- */
 .card {
     display: flex;
     margin-top: 9%;
@@ -161,7 +163,9 @@ button a {
     margin-left: 27px;
 }
 
-/* footer starts  */
+/* ---------------------------main part end --------------------------------------- */
+
+/* ------------------------------footer starts ------------------------ */
 footer {
     height: 444px;
     background-color: black;
@@ -204,7 +208,9 @@ footer h1 {
     list-style: none;
 }
 
-/* for upcoming html  */
+/* --------------------footer end----------------------------  */
+
+/*------------------------ for upcoming html file ----------------  */
 .match-flag {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -236,7 +242,9 @@ footer h1 {
     margin-top: -69px;
 }
 
-/* for allgroup  */
+/* -----------------------------end upcoming html file design ------------------- */
+
+/* -------------------- for allgroup html file design ----------------------- */
 .footballer-images {
     display: flex;
     width: 100%;
@@ -256,6 +264,10 @@ footer h1 {
 .view-button {
     visibility: hidden;
 }
+
+/* --------------------end --------------------- */
+
+/*------------------------------- responsive for mobile ----------------------- */
 
 @media only screen and (max-width:575px) {
     .container {
@@ -295,8 +307,6 @@ footer h1 {
         margin-top: 20px;
     }
 
-    /* header end  */
-    /* main part start  */
     .card {
         flex-direction: column;
     }
@@ -332,7 +342,7 @@ footer h1 {
         width: 50%;
     }
 
-    /* footer  */
+
     .footer h1 {
         font-size: 22px;
     }
@@ -361,7 +371,8 @@ footer h1 {
     }
 }
 
-/* mediam csreen */
+/* -------------------------responsive for tablet------------------------ */
+
 @media screen and (min-width:576px) and (max-width:992px) {
     .container {
         max-width: 734px;
@@ -461,3 +472,5 @@ footer h1 {
         width: 100%;
     }
 }
+
+/*--------------------------- end with project ------------------ */
