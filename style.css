@@ -23,6 +23,10 @@ body {
     padding: 0 5%;
 }
 
+.banner:hover {
+    background-color: #333232;
+}
+
 .cover-headline {
     max-width: 50%;
     padding: 0 30px;
@@ -63,6 +67,11 @@ body {
     color: #fff;
 }
 
+.banner-button:hover {
+    background-color: rgb(116, 20, 20);
+    transition-duration: 0.4s;
+}
+
 /* 2nd part  */
 .card {
     display: flex;
@@ -84,6 +93,8 @@ body {
     height: 10%;
 
 }
+
+
 
 button {
     width: 252px;
@@ -213,7 +224,7 @@ footer h1 {
 }
 
 #transfer-list {
-    gap: 97px;
+    gap: 76px;
     padding-top: 69px;
 }
 
@@ -315,6 +326,10 @@ footer h1 {
 
     #transfer {
         width: 70%;
+    }
+
+    .footballer-images {
+        width: 50%;
     }
 
     /* footer  */
